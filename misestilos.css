@@ -1,0 +1,192 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    color: #66092E;
+}
+.encabezado {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+  }
+.encabezado > div {
+    margin: 2px;
+    border: solid 0.5px white;
+}
+.div_logo{
+    width: 25%;
+}
+.div_centro{
+    width: 50%;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.contenedor_1{
+    width: 80%;
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.contenedor_2{
+    width: 20%;
+    height: 740px;
+    background-color:#663300;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.caja_contenedor2{
+    width: 80%;
+    height: 90%;
+    border: solid 4px white;
+    justify-content: center;
+    margin: 10px auto;
+}
+.TABLA_contenedor2{
+    color: white;
+    margin: 10px;
+    border: solid 3px white;
+}
+.contenedor_Tamanos{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.contenedor_3opciones{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border-color:black ;
+}
+
+.caja_opciones{
+    width: 95%;
+    height: 63%;
+    border: solid 4px white;   
+    margin: 5px auto;
+}
+.Tabla_opciones{
+    width: 98%;
+    height: 90%;
+    border: solid 2px white;
+    margin: 5px auto;
+    text-align: center;
+}
+.Tabla_{
+    width: 98%;
+    height: 70%;
+    border: solid 2px white;
+    margin: 5px auto;
+    text-align: center;
+}
+
+
+#caja1{
+    background-color: #FDA408;
+    width: 98%;
+    height: 34%;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color:black ;
+    box-shadow: 5px 5px 5px midnightblue;
+}
+#caja2{
+    background-color:#CCCC00;
+    width: 98%;
+    height: 36%;
+    margin-left: 10px;
+    margin-top:10px;
+    border-radius: 10px;
+    border-color:black ;
+    box-shadow: 5px 5px 5px midnightblue;
+}
+#caja3{
+    background-color: #CC9900;
+    width: 98%;
+    height: 36%;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color:black ;
+    box-shadow: 5px 5px 5px midnightblue;
+
+}
+.caja_opcion{
+    width: 95%;
+    height: 60%;
+    border: solid 4px white;   
+    margin: 5px auto;
+}
+.contenedor_ingredientes{
+    width: 97%;
+    height: 200px;
+    background-color:#666600;
+    margin: 10px;
+    margin-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border-color:black;
+    box-shadow: 5px 5px 5px midnightblue;
+}
+.TABLA_contenedor_ingredientes{
+    width: 99%;
+    height: 55%;
+    border: solid 4px white;
+}
+
+.TABLA_1{
+    width: 98%;
+    height: 90%;
+    border: solid 2px white;
+    margin: 5px auto;
+}
+.TABLA_1 > td,tr,th{
+    text-align: center;
+    border-color: white;
+}
+
+.contenedor_ingredienteExtra{
+    width: 20%;
+    height: 100%;
+    background-color:#CC3300;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border-radius: 10px;
+    border-color:black;
+    box-shadow: 5px 5px 5px midnightblue;
+}
+.extra{
+    width: 85%;
+    height: 93%;
+    border: solid 2px white;
+    margin: 5px auto;
+}
+.extra > td,tr,th{
+    text-align:left;
+    border-color: white;
+}
+.caja_ingredientes{
+    width: 80%;
+    height: 80%;
+    border: solid 4px white;
+    justify-content: center;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.Tabla_opciones > td,tr,th{
+    text-align: center;
+}
