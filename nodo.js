@@ -59,3 +59,32 @@ limite.insertAdjacentElement("afterbegin",ndo);
 const texto3 = document.createTextNode('aqui');
 ndo.appendChild(texto3);
 */
+
+
+/*
+// Eliminar nodo hijo
+const nodo_eli = document.querySelector('h1.tex');
+const padre = document.querySelector('section.contenedor'); // Nodo padre donde estara el nodo nuevo
+padre.removeChild(nodo_eli);
+
+// encontrar un nodo y lo eliminamos
+const referencia = document.querySelector('label#lj');
+console.log(referencia)
+referencia.remove()*/
+
+
+
+/*
+// Remplazar elementos
+const nuevo_nodo = document.createElement('h1');
+nuevo_nodo.textContent = "Nuevo textoss";
+
+const contenedor = document.querySelector('section.contenedor');
+
+const remplazo = document.querySelector('h1.tex');
+console.log(remplazo)
+
+
+contenedor.replaceChild(nuevo_nodo,remplazo)
+
+*/
