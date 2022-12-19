@@ -3,7 +3,7 @@ Practicas de escritorio del manejo del DOM con JavaScript
 
 <br>
 
-## DOM - DOCUMENT OBJECT MODEL
+## DOM - DOCUMENT OBJECT MODEL - Estructura del Documento HTML
 - Representacion del HTML
 
 - Estructura de datos arbol
