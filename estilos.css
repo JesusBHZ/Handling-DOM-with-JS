@@ -18,10 +18,11 @@ input{
     width: 80%;
     height: 30px;
     margin: 10px;
-    background:red;
-    color: white;
+    background:white;
+    color: black;
     border: none;
     cursor: pointer;
+    font-size: 15px;
 }
 
 #caja{
@@ -32,4 +33,14 @@ input{
     font-size: 40px;
     text-align: center;
 
+}
+
+label{
+    color: white;
+    font-size: 1.8rem;
+}
+
+video{
+    width: 20%;
+    height: 20%;
 }

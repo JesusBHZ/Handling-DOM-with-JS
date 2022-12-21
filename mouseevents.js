@@ -25,7 +25,6 @@ ONMOUSEMOVE: El evento ocurre cuando el puntero se mueve mientras esta sobre un 
 ONMOUSEUP: El evento ocurre cuando el usuario suelta un boton del mouse sobre un elemento, se suelta el click
     <div id="caja" onmouseup="evento()"> Eventos del mouse</div>
 
-
 */
 
 

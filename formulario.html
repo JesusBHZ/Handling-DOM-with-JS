@@ -115,7 +115,7 @@
           </table>
         </section>
       </form>
-      <form>
+      <form action="" id="form">
         <input
           type="text"
           class="txtt"
@@ -124,27 +124,20 @@
           placeholder="PIZZA SELECCIONADA"
         />
 
-        <input
-          type="text"
-          class="txt"
-          id="txtTama"
-          name="txtTama"
-          placeholder="TAMAÑO SELECCIONADO"
-        />
-
-        <input
-          type="text"
-          class="txt"
-          id="txtMasa"
-          name="txtMasa"
-          placeholder="MASA SELECCIONADA"
-        />
-
         <input type="submit" class="btnn" id="enviarr" value="GUARDAR" />&nbsp;
         <input type="reset" class="btn" id="borrar" value="LIMPIAR" />
       </form>
+      <label>
+        <input type="checkbox" id="activador">
+        Terminos y condiciones
+      </label>
       <img src="assets/Logo.png" alt="" />
-      <script src="mouseevents.js"></script>
+      <video src="assets/soko.mkv" style="width: 40%; height: 40%;" id="video" class="video">
+      </video>
+      <button id="play">PLAY</button>
+      <button id="pausa">PAUSA</button>
+      <section></section>
+      <script src="formevents.js"></script>
     </body>
   </html>
 </IDOCTYPE>
